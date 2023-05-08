@@ -1,0 +1,42 @@
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.container h1{
+   color: purple;
+   margin: 84px 0 24px;
+}
+.container input{
+    width: 50%;
+    padding: 24px;
+    background-color: rgb(204, 204, 204);
+    border-radius: 25px;
+    border: none;
+    font-size: 16px;
+}
+.container button{
+    margin-top: 10px;
+    border: black;
+    background-color: purple;
+    color: white;
+    padding: 16px;
+    border-radius: 15px;
+}
+.container button:hover{
+    color: black;
+    background-color: pink;
+    cursor: pointer;
+    border: 2px solid black;
+}
+.titulo img{
+   width: 60px;
+    height: 60px;
+    margin-left: 7px;
+    border-radius: 30px;
+
+}
+.titulo strong{
+    font-size: 18px;
+    color: purple;
+}
